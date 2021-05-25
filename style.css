@@ -1,0 +1,63 @@
+img{
+    width: 200px;
+    margin-left:150px;
+}
+#bulbasaur{
+    transition-duration: 5s, 5s;
+    transition-property:padding-bottom, background-color;
+}
+#bulbasaur:hover{
+    padding-bottom: 10px;
+    background-color: green;
+
+}
+body{
+    background-image: url(letöltés.jpg);
+    background-size:contain;
+
+}
+ul{
+    list-style-type: none;
+    color: white;
+}
+button{
+    margin-left: 210px;
+    border: none;
+    background: transparent;
+}
+#venusaur{
+    height: 200px;
+}
+h2{
+    text-align: center;
+}
+p{
+    text-align: center;
+}
+#charmander{
+    transition-duration:5s, 5s;
+    transition-property:padding-bottom, background-color;
+}
+#charmander:hover{
+    padding-bottom: 10px;
+    background-color:orangered;
+}
+#pokédex{
+    height: 150px;
+    width: 380px;
+    margin-left:37%;
+}
+.bulbasaur{
+    font-size: 50px;
+    background: url(/Nt\ feladat/pokemon-bulbasaur-wallpaper-preview.jpg) 50% 50%;
+    background-size: cover;
+    -webkit-text-fill-color:transparent;
+    -webkit-background-clip: text;
+}
+.charmander{
+    font-size: 50px;
+    background: url(/Nt\ feladat/crop.jpg) 50% 50%;
+    background-size: cover;
+    -webkit-text-fill-color:transparent;
+    -webkit-background-clip: text;
+}
